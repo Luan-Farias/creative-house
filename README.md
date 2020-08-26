@@ -41,3 +41,7 @@ git clone https://github.com/Luan-Farias/creative-house.git
 ```
 
 After clone, you open the window of your terminal, shell or bash in the folder of the projec, and install the depedencies with by running`yarn` or `npm install`, after this, change the name of the .env.example to .env and paste a valid uri to a mongo database, then just run `yarn start` and se if have errors in terminal, if not have errors, access `http://localhost:3333` in your browser and you will can access the app.
+
+## Production
+
+I not will put the project in production and be with a public url, but in the production branch, all the views, scripts, and styles were minifieds by myself to go to production.

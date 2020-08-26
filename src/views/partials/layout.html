@@ -1,17 +1,1 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    {% block title %}
-        <title>Casa Criativa</title>
-    {% endblock %}
-    {% include "partials/head.html" %}
-</head>
-<body id="{{ bodyId }}">
-    <div id="container">
-        {% block content %}
-        {% endblock %}
-    </div>
-    {% include "partials/modal.html" %}
-    <script src="/script.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="pt-br"><head>{% block title %}<title>Casa Criativa</title>{% endblock %}{% include "partials/head.html" %}</head><body id="{{ bodyId }}"><div id="container">{% block content %}{% endblock %}</div>{% include "partials/modal.html" %}<script src="/script.js"></script></body></html>

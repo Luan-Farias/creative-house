@@ -19,8 +19,6 @@ class App {
     templateEngine () {
         nunjucks.configure(path.resolve(__dirname, 'views'), {
             express: this.express,
-            noCache: true, 
-
         });
     }
     
