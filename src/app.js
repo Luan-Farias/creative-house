@@ -24,7 +24,7 @@ class App {
     }
     
     middlewares () {
-        applicationCache.use(cors());
+        this.express.use(cors());
         this.express.use(express.static(path.resolve(__dirname, '..', 'public')));
         this.express.use(express.urlencoded({ extended: true }));
     }
