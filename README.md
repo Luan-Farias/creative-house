@@ -1,7 +1,7 @@
 # Creative House
 
 <div align="center">
-    <img src="https://lh5.googleusercontent.com/JruJdV07_-RBUo_PzxluoIFPU1yVxKw34A072H5r03AyBqVUMrTOV_Oe5gIGa01ykKBh6O2GQG16NNmHlUm2=w1920-h915" alt="Logo do projeto" />
+    <img src="https://lh5.googleusercontent.com/gBTXsj1QVdQXs0hjG4O2reeTTn9TjdnPvnGZpkJwGKIXKnj9QY9rGYod8OWVd-yfe2WiGezlclst_f8Pb7zr=w1920-h915" alt="Logo do projeto" />
 </div>
 
 This is an app make in Workshop Dev of <a href="https://rocketseat.com.br">Rocketseat</a>. The first commit represents the full app maden in workshop dev, but the other represents anothers commits maden by my own.
