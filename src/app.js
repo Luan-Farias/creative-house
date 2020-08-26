@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const nunjucks = require('nunjucks');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
 const routes = require('./routes');
@@ -10,8 +11,8 @@ class App {
     constructor () {
         this.express = express();
 
-        this.templateEngine();
         this.middlewares();
+        this.templateEngine();
         this.database();
         this.routes();
     }
@@ -23,6 +24,7 @@ class App {
     }
     
     middlewares () {
+        applicationCache.use(cors());
         this.express.use(express.static(path.resolve(__dirname, '..', 'public')));
         this.express.use(express.urlencoded({ extended: true }));
     }
