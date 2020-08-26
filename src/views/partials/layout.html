@@ -4,14 +4,14 @@
     {% block title %}
         <title>Casa Criativa</title>
     {% endblock %}
-    {% include "head.html" %}
+    {% include "partials/head.html" %}
 </head>
 <body id="{{ bodyId }}">
     <div id="container">
         {% block content %}
         {% endblock %}
     </div>
-    {% include "modal.html" %}
+    {% include "partials/modal.html" %}
     <script src="/script.js"></script>
 </body>
 </html>

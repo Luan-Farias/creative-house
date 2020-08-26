@@ -2,7 +2,7 @@
 <title>Ideias - Casa Criativa</title>
 {% endblock %}
 {% set bodyId = "page-ideas" %}
-{% extends "layout.html" %}
+{% extends "partials/layout.html" %}
 {% block content %}
 <header>
     <a href="/">
@@ -20,7 +20,7 @@
 </section>
 <main>
     <section id="ideas">
-        {% include "all-ideas.html" %}
+        {% include "partials/ideas.html" %}
     </section>
 </main>
 <footer>
